@@ -230,3 +230,21 @@ tr:nth-child(odd) td {
     font-size: 1rem;
   }
 }
+
+/* Mobile & Tablet Table Fix */
+@media (max-width: 1023px) {
+  .table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .table-wrapper table {
+    width: 700px !important;
+    min-width: 700px !important;
+  }
+
+  .table-wrapper th,
+  .table-wrapper td {
+    white-space: nowrap;
+  }
+}
