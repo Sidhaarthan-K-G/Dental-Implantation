@@ -239,12 +239,12 @@ tr:nth-child(odd) td {
   }
 
   .table-wrapper table {
-    width: 700px !important;
-    min-width: 700px !important;
+    width: 100%;
+    min-width: 100%;
   }
 
   .table-wrapper th,
   .table-wrapper td {
-    white-space: nowrap;
+    white-space: normal;
   }
 }
