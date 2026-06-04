@@ -239,8 +239,8 @@ tr:nth-child(odd) td {
   }
 
   .table-wrapper table {
+    min-width: 520px; /* ← this is the key fix */
     width: 100%;
-    min-width: 100%;
   }
 
   .table-wrapper th,
