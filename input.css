@@ -156,6 +156,9 @@ tr:nth-child(odd) td {
 
 
 /* ── Diagnosis table — scoped ── */
+.table-wrapper{
+  border-radius: 20px;
+}
 .table-wrapper table {
   width: 100%;
   border-collapse: collapse;

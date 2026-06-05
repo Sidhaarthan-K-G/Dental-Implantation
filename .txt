@@ -1,0 +1,331 @@
+final code:
+
+<section id="comparison" class="fade-in-section mb-10">
+  <h2 class="flex gap-2">
+    <span class="font-display text-2xl font-bold text-blue-900 mb-3">Dental Implants vs Bridges vs Dentures</span>
+  </h2>
+
+  <!-- CHANGE: table-wrapper only wraps the table, not the cards -->
+  <div class="table-wrapper overflow-hidden" style="border-radius: 16px;">
+    <table class="hidden lg:table w-full text-left border-collapse">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Dental Implants</th>
+          <th>Dental Bridges</th>
+          <th>Dentures</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Stability</td>
+          <td>Fixed, strongest</td>
+          <td>Moderately stable</td>
+          <td>Removable</td>
+        </tr>
+        <tr>
+          <td>Chewing Ability</td>
+          <td>Near natural teeth</td>
+          <td>Good</td>
+          <td>Limited</td>
+        </tr>
+        <tr>
+          <td>Lifespan</td>
+          <td>15–25+ years</td>
+          <td>10–15 years</td>
+          <td>5–8 years</td>
+        </tr>
+        <tr>
+          <td>Bone Loss Prevention</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Effect on Teeth</td>
+          <td>No damage</td>
+          <td>Requires support teeth</td>
+          <td>No impact</td>
+        </tr>
+        <tr>
+          <td>Comfort</td>
+          <td>Highest</td>
+          <td>Moderate</td>
+          <td>Lowest</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- CHANGE: Cards moved OUTSIDE .table-wrapper so scoped CSS doesn't interfere -->
+  <div class="flex flex-col gap-8 lg:hidden mt-4">
+
+    <!-- Card 1: Dental Implants -->
+    <div class="border border-gray-200 shadow-sm overflow-hidden" style="border-radius: 16px;">
+      <div class="px-5 py-4" style="background-color: #1e3a8a;">
+        <h3 class="text-base font-semibold text-white" style="font-family: 'Poppins', sans-serif;">Dental Implants</h3>
+      </div>
+      <div class="flex flex-col divide-y divide-gray-100 px-5">
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Stability</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Fixed, strongest</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Chewing Ability</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Near natural teeth</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Lifespan</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">15–25+ years</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Bone Loss Prevention</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Yes</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Effect on Teeth</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">No damage</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Comfort</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Highest</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: Dental Bridges -->
+    <div class="border border-gray-200 shadow-sm overflow-hidden" style="border-radius: 16px;">
+      <div class="px-5 py-4" style="background-color: #1e3a8a;">
+        <h3 class="text-base font-semibold text-white" style="font-family: 'Poppins', sans-serif;">Dental Bridges</h3>
+      </div>
+      <div class="flex flex-col divide-y divide-gray-100 px-5">
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Stability</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Moderately stable</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Chewing Ability</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Good</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Lifespan</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">10–15 years</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Bone Loss Prevention</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">No</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Effect on Teeth</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Requires support teeth</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Comfort</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Moderate</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: Dentures -->
+    <div class="border border-gray-200 shadow-sm overflow-hidden" style="border-radius: 16px;">
+      <div class="px-5 py-4" style="background-color: #1e3a8a;">
+        <h3 class="text-base font-semibold text-white" style="font-family: 'Poppins', sans-serif;">Dentures</h3>
+      </div>
+      <div class="flex flex-col divide-y divide-gray-100 px-5">
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Stability</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Removable</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Chewing Ability</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Limited</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Lifespan</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">5–8 years</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Bone Loss Prevention</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">No</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Effect on Teeth</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">No impact</span>
+        </div>
+        <div class="flex justify-between items-center py-3 gap-4">
+          <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Comfort</span>
+          <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Lowest</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+previous code:
+
+<section id="comparison" class="fade-in-section mb-10">
+          <h2 class="flex  gap-2">
+            <span class="font-display text-2xl font-bold text-blue-900 mb-3 ">Dental Implants vs Bridges vs Dentures</span>
+          </h2>
+          <div class="table-wrapper overflow-hidden" style="border-radius: 16px;">
+
+           <table class="hidden lg:table w-full text-left border-collapse">
+              <thead>
+                <tr>
+                  <th>Feature</th>
+                  <th>Dental Implants</th>
+                  <th>Dental Bridges</th>
+                  <th>Dentures</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Stability</td>
+                  <td>Fixed, strongest</td>
+                  <td>Moderately stable</td>
+                  <td>Removable</td>
+                </tr>
+                <tr>
+                  <td>Chewing Ability</td>
+                  <td>Near natural teeth</td>
+                  <td>Good</td>
+                  <td>Limited</td>
+                </tr>
+                <tr>
+                  <td>Lifespan</td>
+                  <td>15–25+ years</td>
+                  <td>10–15 years</td>
+                  <td>5–8 years</td>
+                </tr>
+                <tr>
+                  <td>Bone Loss Prevention	</td>
+                  <td>Yes</td>
+                  <td>No</td>
+                  <td>No</td>
+                </tr>
+                <tr>
+                  <td>Effect on Teeth</td>
+                  <td>No damage</td>
+                  <td>Requires support teeth</td>
+                  <td>No impact</td>
+                </tr>
+                <tr>
+                  <td>Comfort</td>
+                  <td>Highest</td>
+                  <td>Moderate</td>
+                  <td>Lowest</td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- CARDS: visible only on mobile and tablet (below lg) -->
+            <div class="flex flex-col gap-8 lg:hidden">
+
+              <!-- Card 1: Dental Implants -->
+              <div class="rounded-2xl border border-gray-200 shadow-sm overflow-hidden" style="border-radius: 16px;">
+                <!-- CARD HEADER: matches th background color #1e3a8a -->
+                <div class="px-5 py-4" style="background-color: #1e3a8a;">
+                  <h3 class="text-base font-semibold text-white" style="font-family: 'Poppins', sans-serif;">Dental Implants</h3>
+                </div>
+                <!-- CARD ROWS -->
+                <div class="flex flex-col divide-y divide-gray-100 px-5">
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <!-- CHANGE: Feature label uses #1e3a8a (same as th color) -->
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Stability</span>
+                    <!-- CHANGE: Value uses #565759 (same as td color) -->
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Fixed, strongest</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Chewing Ability</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Near natural teeth</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Lifespan</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">15–25+ years</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Bone Loss Prevention</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Yes</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Effect on Teeth</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">No damage</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Comfort</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Highest</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2: Dental Bridges -->
+              <div class="rounded-2xl border border-gray-200 shadow-sm overflow-hidden" style="border-radius: 16px;">
+                <div class="px-5 py-4" style="background-color: #1e3a8a;">
+                  <h3 class="text-base font-semibold text-white" style="font-family: 'Poppins', sans-serif;">Dental Bridges</h3>
+                </div>
+                <div class="flex flex-col divide-y divide-gray-100 px-5">
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Stability</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Moderately stable</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Chewing Ability</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Good</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Lifespan</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">10–15 years</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Bone Loss Prevention</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">No</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Effect on Teeth</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Requires support teeth</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Comfort</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Moderate</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3: Dentures -->
+              <div class="rounded-2xl border border-gray-200 shadow-sm overflow-hidden" style="border-radius: 16px;">
+                <div class="px-5 py-4" style="background-color: #1e3a8a;">
+                  <h3 class="text-base font-semibold text-white" style="font-family: 'Poppins', sans-serif;">Dentures</h3>
+                </div>
+                <div class="flex flex-col divide-y divide-gray-100 px-5">
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Stability</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Removable</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Chewing Ability</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Limited</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Lifespan</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">5–8 years</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Bone Loss Prevention</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">No</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Effect on Teeth</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">No impact</span>
+                  </div>
+                  <div class="flex justify-between items-center py-3 gap-4">
+                    <span class="text-sm font-semibold w-1/2" style="color: #1e3a8a; font-family: 'Poppins', sans-serif;">Comfort</span>
+                    <span class="text-sm text-right w-1/2" style="color: #565759; font-family: 'Poppins', sans-serif;">Lowest</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </div>
+      </section>
