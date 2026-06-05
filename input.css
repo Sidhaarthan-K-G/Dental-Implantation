@@ -125,10 +125,10 @@ section {
 }
 
 /* ── Diagnosis table ── */
-table {
+/* table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #e5e7eb; /* full outer border */
+  border: 1px solid #e5e7eb; /* full outer border 
 }
 
 th {
@@ -151,6 +151,38 @@ td {
 }
 
 tr:nth-child(odd) td {
+  background: #f9fafb;
+} */
+
+
+/* ── Diagnosis table — scoped ── */
+.table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.table-wrapper th {
+  background: #1e3a8a;
+  color: white;
+  padding: 10px 14px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #e5e7eb;
+}
+
+.table-wrapper td {
+  padding: 10px 14px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #565759;
+  border: 1px solid #e5e7eb;
+}
+
+.table-wrapper tr:nth-child(odd) td {
   background: #f9fafb;
 }
 /* ── FAQ accordion ── */
@@ -232,7 +264,7 @@ tr:nth-child(odd) td {
 }
 
 /* Mobile & Tablet Table Fix */
-@media (max-width: 1023px) {
+@media (max-width: 640px) {
   .table-wrapper {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
